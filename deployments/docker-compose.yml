@@ -2,8 +2,8 @@ version: '3.3'
 services:
   go-server:
     build:
-      context: .
-      dockerfile: ../build/Dockerfile
+      context: ..
+      dockerfile: ./build/Dockerfile
     container_name: go-server
     ports: 
       - 8080:8080
